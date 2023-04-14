@@ -5,7 +5,7 @@ FILENAME = "day4/our_input.txt"
 def main():
     data = process_input_file(FILENAME)
     subset_count = algo(data)
-    print(f"fully containing pairs: {subset_count}")
+    print(f"pairs with overlap: {subset_count}")
 
 
 def process_input_file(filename) -> list[tuple[list[int], list[int]]]:
